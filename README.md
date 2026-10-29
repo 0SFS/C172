@@ -24,3 +24,5 @@ Topics: `0sfs-mod` and `0sfs-aircraft`.
 - [Contributing](https://github.com/0SFS/.github/blob/main/CONTRIBUTING.md)
 - [License](LICENSE)
 - [Security](https://github.com/0SFS/.github/blob/main/SECURITY.md)
+
+The C172 declares `camera.follow: "aircraft"` and depends on `0SFS/rotating-prop`. Its propeller rig uses the shared frame-rate-aware rotation and alias limit: above it, the blades hide behind the authored semi-transparent 3D swept volume (`Propeller_Disc`). **Aircraft → Flat propeller discs** (Off by default) swaps in a cheaper flat disc.

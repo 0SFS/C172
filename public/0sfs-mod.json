@@ -14,7 +14,8 @@
     ]
   },
   "dependencies": [
-    "0SFS/IO320"
+    "0SFS/IO320",
+    "0SFS/rotating-prop"
   ],
   "jsbsimFiles": [
     "aircraft/c172p/c172p.xml",
@@ -100,7 +101,10 @@
               "note": "Measured reconstruction, designed explicitly for max runtime speed."
             }
           }
-        ]
+        ],
+        "camera": {
+          "follow": "aircraft"
+        }
       }
     ],
     "fdmProfiles": {
